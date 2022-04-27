@@ -1,8 +1,9 @@
 name: "Valida role ansibler"
+
 on:
   push:
     branches:
-      - teste
+      - main
 jobs:
   job_exemplo:
     uses: "rafaelm93/cicd_centralizado/.github/workflows/ansible_valida_role.yaml@teste"
