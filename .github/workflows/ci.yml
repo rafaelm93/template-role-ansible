@@ -1,6 +1,8 @@
 name: "Valida role ansibler"
 on:
-push:
+  push:
+    branches:
+      - teste
 jobs:
   job_exemplo:
     steps:
