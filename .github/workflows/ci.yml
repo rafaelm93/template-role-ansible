@@ -5,6 +5,5 @@ on:
       - teste
 jobs:
   job_exemplo:
-    steps:
-      - uses: "rafaelm93/cicd_centralizado/.github/workflows/ansible_valida_role.yaml@teste"
+    uses: "rafaelm93/cicd_centralizado/.github/workflows/ansible_valida_role.yaml@teste"
   
