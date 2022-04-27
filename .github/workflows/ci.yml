@@ -3,8 +3,9 @@ name: "Valida role ansibler"
 on:
   push:
 jobs:
-  steps:
-    - name: teste
-      uses: "rafaelm93/cicd_centralizado/.github/workflows/ansible_valida_role.yaml@teste"
+  my_first_job:
+    steps:
+      - name: teste
+        uses: "rafaelm93/cicd_centralizado/.github/workflows/ansible_valida_role.yaml@teste"
   
   
